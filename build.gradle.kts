@@ -35,10 +35,10 @@ configure<UserExtension> {
     runDir = "eclipse"
 }
 
-//configure<JavaPluginConvention> {
-//    sourceCompatibility = "1.8"
-//    targetCompatibility = "1.8"
-//}
+configure<JavaPluginConvention> {
+    sourceCompatibility = JavaVersion.VERSION_1_8
+    targetCompatibility = JavaVersion.VERSION_1_8
+}
 
 dependencies {
     // you may put jars on which you depend on in ./libs
