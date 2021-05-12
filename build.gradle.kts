@@ -5,7 +5,7 @@ buildscript {
         mavenCentral()
         maven {
             name = "forge"
-            url = java.net.URI("http://files.minecraftforge.net/maven")
+            url = java.net.URI("http://maven.minecraftforge.net/")
         }
         maven {
             name = "sonatype"
@@ -17,7 +17,7 @@ buildscript {
         }
     }
     dependencies {
-        classpath("net.minecraftforge.gradle:ForgeGradle:1.2-1.0.0-SNAPSHOT")
+        classpath("net.minecraftforge.gradle:ForgeGradle:1.2-1.2.0-SNAPSHOT")
     }
 }
 
